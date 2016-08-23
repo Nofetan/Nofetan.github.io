@@ -49,3 +49,15 @@ body {
 .author a {
     color: #ee4444;
 }
+
+.jumbotron {
+  background-image: url("../images/bg.png");
+  background-size: cover;
+  opacity: 2.0;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+.jumbotron h1{
+  color: white;
+  text-shadow: 1px 1px black;
+}

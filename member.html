@@ -1,0 +1,61 @@
+---
+layout: member
+title : 노페땅의 멤버를 소개합니다.
+description : 이 사람들과 일하고 싶어질겁니다.
+---
+
+<div id="founder">
+  <h3>founder</h3>
+  {% for member in site.data.members %}
+    {% if member.position == "founder" %}
+    <div class="well">
+      <img src= {{ member.img }} />
+      <h5>
+        {{ member.name }}
+      </h5>
+    </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<div id="developer">
+  <h3>developer</h3>
+  {% for member in site.data.members %}
+    {% if member.position == "developer" %}
+    <div class="well">
+      <img src= {{ member.img }} />
+      <h5>
+        {{ member.name }}
+      </h5>
+    </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<div id="marketer">
+  <h3>marketer</h3>
+  {% for member in site.data.members %}
+    {% if member.position == "marketer" %}
+    <div class="well member">
+      <img src= {{ member.img }} />
+      <h5>
+        {{ member.name }}
+      </h5>
+    </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<div id="designer">
+  <h3>designer</h3>
+  {% for member in site.data.members %}
+    {% if member.position == "designer" %}
+    <div class="well member">
+      <img src= {{ member.img }} />
+      <h5>
+        {{ member.name }}
+      </h5>
+    </div>
+    {% endif %}
+  {% endfor %}
+</div>
