@@ -38,7 +38,7 @@ member:
   kms:
     name: '김민식'
     img: 'static/img/landing/kms.png'
-    description: '멤버에 대한 소개'
+    description: '클래식 음악과 교토 애니메이션을 좋아합니다.'
   kmg:
     name: 'mango'
     img: 'static/img/landing/kmg.png'
@@ -46,7 +46,7 @@ member:
   ksy:
     name: '김서영'
     img: 'static/img/landing/ksy.png'
-    description: '멤버에 대한 소개'
+    description: 'AMAZING☆'
   rs:
     name: '류석'
     img: 'static/img/landing/rs.png'
@@ -54,7 +54,7 @@ member:
   rch:
     name: '류창현'
     img: 'static/img/landing/rch.png'
-    description: '멤버에 대한 소개'
+    description: '발라 모굴리스'
   pjh:
     name: 'pjhjohn'
     img: 'static/img/landing/pjh.png'
@@ -62,11 +62,11 @@ member:
   syk:
     name: '서영광'
     img: 'static/img/landing/syk.png'
-    description: '멤버에 대한 소개'
+    description: '키랏~☆ 리라메루 라라메루 란 루라 란'
   ljh:
     name: '이지호'
     img: 'static/img/landing/ljh.png'
-    description: '멤버에 대한 소개'
+    description: '지나가던 잡덕 1입니다.'
   cdh:
     name: '장동현'
     img: 'static/img/landing/cdh.png'
