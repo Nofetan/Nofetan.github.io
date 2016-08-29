@@ -1,39 +1,118 @@
-# Jekyll configuration
+# Welcome to Jekyll!
 
-name: Nofetan
-description: Team Nosferatu
+# Website settings
+title: "NOFETAN INC."
+description: "주식회사 노페땅"
+keywords: "노페땅, 삼천원"
+baseurl: "/"
+# url: "http://nofetan.com"
+url: "http://127.0.0.1:4000"
 
-# url is currently only used only for the RSS feed in feed.xml
-url: http://nofetan.github.io/
+# blog img path
+img_path: 'http://www.jack003.com/static/img/blog'
 
-# baseurl will often be '', but for a project page on gh-pages, it needs to
-# be the project name.
-# *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
-#     run it like so: jekyll serve --baseurl=''
-baseurl: ''
+# landing page
+landing:
+  home: home
+  about: about
+  history: history
+  team: team
+  blog: blog
+  contact: contact
 
-# This can be '' to hide the Github nav button
-github: 'nofetan/'
+#landing:
+#  home: landing-1
+#  about: landing-2
+#  career: landing-3
+#  skills: landing-4
+#  projects: landing-5
+#  blog: landing-6
+#  link: landing-7
 
-# Set this to your UA-# value, or '' to disable the block completely
-gaaccount: ''
+# my projects
+member:
+  kkt:
+    name: '김경태'
+    img: 'static/img/landing/kkt.png'
+    description: '멤버에 대한 소개'
+  kms:
+    name: '김민식'
+    img: 'static/img/landing/kms.png'
+    description: '멤버에 대한 소개'
+  kmg:
+    name: 'mango'
+    img: 'static/img/landing/kmg.png'
+    description: '멤버에 대한 소개'
+  ksy:
+    name: '김서영'
+    img: 'static/img/landing/ksy.png'
+    description: '멤버에 대한 소개'
+  rs:
+    name: '류석'
+    img: 'static/img/landing/rs.png'
+    description: '멤버에 대한 소개'
+  rch:
+    name: '류창현'
+    img: 'static/img/landing/rch.png'
+    description: '멤버에 대한 소개'
+  pjh:
+    name: 'pjhjohn'
+    img: 'static/img/landing/pjh.png'
+    description: '서비스는 죽지 않아요. 대가를 치를 뿐.'
+  syk:
+    name: '서영광'
+    img: 'static/img/landing/syk.png'
+    description: '멤버에 대한 소개'
+  ljh:
+    name: '이지호'
+    img: 'static/img/landing/ljh.png'
+    description: '멤버에 대한 소개'
+  cdh:
+    name: '장동현'
+    img: 'static/img/landing/cdh.png'
+    description: '멤버에 대한 소개'
+  cgr:
+    name: '최가람'
+    img: 'static/img/landing/cgr.png'
+    description: '멤버에 대한 소개'
 
-# The 'comments' setting enables comments. You'll need to select either
-# disqus or isso below to choose a comment system. Individual posts can
-# override 'comments' to disable on a post-by-post basis.
-comments: true
+# blog index
+index:
+  home: home
+  dev: dev
+  press: press
 
-# Set this to your public isso URL to enable comments via isso. Set to '' to disable isso.
-isso: ''
+# donate
+# donate:
+#  wechat: 'static/img/pay/wechat.png'
+#  alipay: 'static/img/pay/alipay.png'
 
-# Set this to your disqus shortname to enable comments via disqus. Set to '' to disable disqus.
-disqus: ''
+# comment
+# changyan:
+  # appid: cysfY7ULn
+  # conf: prod_861928934cecb7a18e15bedaed9dae29
+# disqus:
+#  name: jalpc
+#  public_key: tj2MPaNlHMONwTH5bGDNSXyaBpW7q282MeUzh5CwcjJerNhK8Kxk3aWo7IckzTX7
 
-permalink: /:year/:month/:title
-paginate: 3
+# share
+#bshare:
+#  uuid: 513f778e-a8f7-4c20-9ec2-d29cc2328d75
 
+# baidu analytics
+#ba:
+#  uuid: 317acca9ef9255b934e46371e471431d
+
+# google analytics
+ga:
+  id:
+
+# Build settings
+encoding: "utf-8"
+
+# other settings
 highlighter: rouge
 markdown: kramdown
-gems: ['jekyll-paginate']
-
-exclude: ['README.md', 'LICENSE']
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
