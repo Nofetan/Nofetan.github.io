@@ -5,8 +5,7 @@ title: "NOFETAN INC."
 description: "주식회사 노페땅"
 keywords: "노페땅, 삼천원"
 baseurl: "/"
-# url: "http://nofetan.com"
-url: "http://127.0.0.1:4000"
+url: "http://nofetan.com"
 
 # blog img path
 img_path: 'http://www.jack003.com/static/img/blog'
