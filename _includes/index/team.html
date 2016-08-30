@@ -1,0 +1,66 @@
+
+<section id="team" class="project features">
+    <div class="container" id="i18_members">
+        <div class="row m-b-lg">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1><span data-i18n="projects.my_projects">팀</span></h1>
+            </div>
+        </div>
+        <!--
+        <div class="row">
+            <div class="col-sm-6  fadeInLeft">
+                <div class="team-member">
+                    <img src="{{ site.data.member.a.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
+                    <h4><span style="color: #1ab394" class="navy">{{ site.data.member.a.name }}</span></h4>
+                    <p><span>{{ site.data.member.a.description }}</span></p>
+                </div>
+            </div>
+            <div class="col-sm-6  fadeInRight">
+                <div class="team-member">
+                    <img src="{{ site.data.member.b.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
+                    <h4><span style="color: #1ab394" class="navy">{{ site.data.member.b.name }}</span></h4>
+                    <p><span>{{ site.data.member.b.description }}</span></p>
+                </div>
+            </div>
+        </div>
+        -->
+        <div class="col-lg-10 col-lg-offset-1">
+        {% for member in site.data.member %}
+          {% assign loopindex = forloop.index | modulo: 2 %}
+          {% if loopindex == 1 %}
+          <div class="row">
+            <div class="col-sm-6 wow fadeInLeft" style="padding-top: 3em;">
+              <div class="team-member">
+                <img src="{{ member.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
+                <h4><span style="color: #1ab394" class="navy">{{ member.name }}</span></h4>
+                <p><span>{{ member.description }}</span></p>
+              </div>
+            </div>
+          {% else %}
+            <div class="col-sm-6 wow fadeInRight" style="padding-top: 3em;">
+              <div class="team-member">
+                  <img src="{{ member.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
+                  <h4><span style="color: #1ab394" class="navy">{{ member.name }}</span></h4>
+                  <p><span>{{ member.description }}</span></p>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    <br>
+</section>
+
+<section id="blog" class="navy-section testimonials" style="margin-top: 0">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center wow zoomIn" id="i18_blog">
+                <br><br><br>
+                <a class="btn btn-lg btn-default btn-rounded btn-outline  bounceIn" href="/blog/"><span data-i18n="blog.my_blog">블로그</span></a>
+                <br><br><br>
+            </div>
+        </div>
+    </div>
+</section>
