@@ -205,38 +205,38 @@ permalink: /
         <div class="row">
             <div class="col-sm-6  fadeInLeft">
                 <div class="team-member">
-                    <img src="{{ site.member.a.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
-                    <h4><span style="color: #1ab394" class="navy">{{ site.member.a.name }}</span></h4>
-                    <p><span>{{ site.member.a.description }}</span></p>
+                    <img src="{{ site.data.member.a.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
+                    <h4><span style="color: #1ab394" class="navy">{{ site.data.member.a.name }}</span></h4>
+                    <p><span>{{ site.data.member.a.description }}</span></p>
                 </div>
             </div>
             <div class="col-sm-6  fadeInRight">
                 <div class="team-member">
-                    <img src="{{ site.member.b.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
-                    <h4><span style="color: #1ab394" class="navy">{{ site.member.b.name }}</span></h4>
-                    <p><span>{{ site.member.b.description }}</span></p>
+                    <img src="{{ site.data.member.b.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
+                    <h4><span style="color: #1ab394" class="navy">{{ site.data.member.b.name }}</span></h4>
+                    <p><span>{{ site.data.member.b.description }}</span></p>
                 </div>
             </div>
         </div>
         -->
         <div class="col-lg-10 col-lg-offset-1">
-        {% for member in site.member %}
+        {% for member in site.data.member %}
           {% assign loopindex = forloop.index | modulo: 2 %}
           {% if loopindex == 1 %}
           <div class="row">
             <div class="col-sm-6 wow fadeInLeft" style="padding-top: 3em;">
               <div class="team-member">
-                <img src="{{ member[1].img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
-                <h4><span style="color: #1ab394" class="navy">{{ member[1].name }}</span></h4>
-                <p><span>{{ member[1].description }}</span></p>
+                <img src="{{ member.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
+                <h4><span style="color: #1ab394" class="navy">{{ member.name }}</span></h4>
+                <p><span>{{ member.description }}</span></p>
               </div>
             </div>
           {% else %}
             <div class="col-sm-6 wow fadeInRight" style="padding-top: 3em;">
               <div class="team-member">
-                  <img src="{{ member[1].img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
-                  <h4><span style="color: #1ab394" class="navy">{{ member[1].name }}</span></h4>
-                  <p><span>{{ member[1].description }}</span></p>
+                  <img src="{{ member.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
+                  <h4><span style="color: #1ab394" class="navy">{{ member.name }}</span></h4>
+                  <p><span>{{ member.description }}</span></p>
               </div>
             </div>
           </div>
