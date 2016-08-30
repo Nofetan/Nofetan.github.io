@@ -93,7 +93,7 @@ permalink: /
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg  zoomIn">
+            <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg wow zoomIn">
                 <h3>다양성</h3>
                 <p><span>
                   문화예술의 다양성은 언제나 위협받기 쉽습니다.
@@ -105,7 +105,7 @@ permalink: /
         </div>
 
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg  zoomIn">
+            <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg wow zoomIn">
                 <h3>창작</h3>
                 <p><span>
                   문화예술인들이 창작활동에 집중할 수 없는 지금의 상황이 바뀌어야만 합니다.
@@ -116,7 +116,7 @@ permalink: /
         </div>
 
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg  zoomIn">
+            <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg wow zoomIn">
                 <h3>덕질</h3>
                 <p><span>
                   더 많은 사람들이 문화예술의 소비자가 될수 있어야합니다.
@@ -143,10 +143,10 @@ permalink: /
                 <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
 
                     <div class="vertical-timeline-block">
-                        <div class="vertical-timeline-icon navy-bg  rotateIn">
+                        <div class="vertical-timeline-icon navy-bg wow rotateIn">
                             <i class="fa fa-flag"></i>
                         </div>
-                        <div class="vertical-timeline-content  rotateInUpRight">
+                        <div class="vertical-timeline-content wow rotateInUpRight">
                             <h2><span data-i18n="career.nextcode">팀 노페땅 결성</span></h2>
                             <p><span data-i18n="career.nextcode_des">문화예술시장의 문제를 해결하기 위해 팬들이 직접 나서야겠다고 결심했습니다.</span></p>
                             <span class="vertical-date"><span data-i18n="career.nextcode_date"> 2016년 1월 </span><br/> <small><span data-i18n="career.nextcode_job">팀 결성</span></small> </span>
@@ -154,10 +154,10 @@ permalink: /
                     </div>
 
                     <div class="vertical-timeline-block">
-                        <div class="vertical-timeline-icon navy-bg  rotateIn">
+                        <div class="vertical-timeline-icon navy-bg wow rotateIn">
                             <i class="fa fa-rocket"></i>
                         </div>
-                        <div class="vertical-timeline-content  rotateInUpLeft">
+                        <div class="vertical-timeline-content wow rotateInUpLeft">
                             <h2><span data-i18n="career.netease">SOPOONG 엑셀러레이팅</span></h2>
                             <p><span data-i18n="career.netease_des"><a href="http://sopoong.net" target="blank">소셜벤처 인큐베이터 SOPOONG</a>의 배치 프로그램 1기에 선정되어 시드 투자와 함께 엑셀러레이팅을 받았습니다.</span></p>
                             <span class="vertical-date"><span data-i18n="career.netease_date"> 2016년 3월 </span><br/> <small><span data-i18n="career.netease_job">엑셀러레이팅</span></small> </span>
@@ -165,7 +165,7 @@ permalink: /
                     </div>
 
                     <div class="vertical-timeline-block">
-                        <div class="vertical-timeline-icon navy-bg  rotateIn">
+                        <div class="vertical-timeline-icon navy-bg wow rotateIn">
                             <i class="fa fa-building"></i>
                         </div>
                         <div class="vertical-timeline-content  rotateInUpRight">
@@ -179,7 +179,7 @@ permalink: /
                         <div class="vertical-timeline-icon navy-bg  rotateIn">
                             <i class="fa fa-star"></i>
                         </div>
-                        <div class="vertical-timeline-content  rotateInUpLeft">
+                        <div class="vertical-timeline-content wow rotateInUpLeft">
                             <h2><span data-i18n="career.ucloud">'삼천원' 서비스 런칭</span></h2>
                             <p><span data-i18n="career.ucloud_des"><a href="https://3000won.com/" target="blank">문화예술 직접소비플랫폼 '삼천원'</a>을 런칭했습니다.</span></p>
                             <span class="vertical-date"><span data-i18n="career.ucloud_date"> 2016년 6월 </span><br/> <small><span data-i18n="career.ucloud_job">서비스 런칭</span></small> </span>
@@ -224,7 +224,7 @@ permalink: /
           {% assign loopindex = forloop.index | modulo: 2 %}
           {% if loopindex == 1 %}
           <div class="row">
-            <div class="col-sm-6  fadeInLeft" style="padding-top: 3em;">
+            <div class="col-sm-6 wow fadeInLeft" style="padding-top: 3em;">
               <div class="team-member">
                 <img src="{{ member[1].img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
                 <h4><span style="color: #1ab394" class="navy">{{ member[1].name }}</span></h4>
@@ -232,7 +232,7 @@ permalink: /
               </div>
             </div>
           {% else %}
-            <div class="col-sm-6  fadeInRight" style="padding-top: 3em;">
+            <div class="col-sm-6 wow fadeInRight" style="padding-top: 3em;">
               <div class="team-member">
                   <img src="{{ member[1].img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
                   <h4><span style="color: #1ab394" class="navy">{{ member[1].name }}</span></h4>
@@ -250,7 +250,7 @@ permalink: /
 <section id="blog" class="navy-section testimonials" style="margin-top: 0">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 text-center  zoomIn" id="i18_blog">
+            <div class="col-lg-12 text-center wow zoomIn" id="i18_blog">
                 <br><br><br>
                 <a class="btn btn-lg btn-default btn-rounded btn-outline  bounceIn" href="/blog/"><span data-i18n="blog.my_blog">블로그</span></a>
                 <br><br><br>
@@ -269,7 +269,7 @@ permalink: /
         </div>
         <div class="row">
             <div class="col-sm-4 col-sm-offset-4">
-                <div class="team-member  zoomIn">
+                <div class="team-member wow zoomIn">
                     <h4><span class="navy">주식회사 노페땅</span></h4>
                     <p>
                       서울특별시 성동구 왕십리로2길 20, 1층 <br />
@@ -341,6 +341,7 @@ permalink: /
 
     })();
     // Activate .js plugin for animation on scrol
+    new WOW().init();
 </script>
 <!--
 <script>
