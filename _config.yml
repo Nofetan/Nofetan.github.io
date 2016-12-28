@@ -15,7 +15,7 @@ landing:
   home: home
   about: about
   history: history
-  team: team
+  # team: team
   blog: blog
   contact: contact
 
