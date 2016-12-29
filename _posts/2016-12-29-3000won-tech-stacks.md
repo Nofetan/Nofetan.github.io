@@ -9,6 +9,7 @@ keywords: "삼천원, 개발, 기술스택, React, Redux, Django"
 tags: [개발, React, DRF]
 ---
 ![삼천원의 기술 스택](http://nofetan.com/static/img/blog/tech-stacks/3000won_tech_stacks.jpg)
+
 노페땅은 _기술적으로_ 뒤쳐지지 않는 문화예술 스타트업이자, 개발자에게 성장 가능성을 제공하는 문화예술 스타트업이 되고싶습니다. 그런 의미에서 삼천원 플랫폼이 사용하고 있는 기술 스택들을 소개하도록 하겠습니다.
 
 ## 서버
